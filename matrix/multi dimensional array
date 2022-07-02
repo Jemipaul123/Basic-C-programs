@@ -1,0 +1,17 @@
+#include<stdio.h>
+intmain(){
+int arr[5][5],r,c;
+printf("enter the number of rows");
+scanf("%d",&r);
+printf("enter the number of coloumns");
+scanf("%d",&c);
+printf("enter the elements");
+for(i=0;i<5;i++)
+{
+for(j=0;j<5;j++)
+{scanf("%d,%d",&array[i][j]);}}
+}
+
+
+
+
