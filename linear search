@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int arr[10],i,key,flag=0;
+    printf(" Enter 8 numbers\n");
+    for(i=1;i<=8;i++)
+    {
+    scanf("%d",&arr[i]);
+}
+
+printf("enter the key value to search\n ");
+scanf("%d",&key);
+for(i=1;i<=8;i++)
+{
+    if(arr[i]==key)
+    {
+        printf("Element %d is found in %d position",key,i);
+        flag=1;
+        
+    } }
+    if (flag==0)
+    { printf("element not found\n");
+}    printf(" Enter 8 numbers\n");
+
+
+
+}
