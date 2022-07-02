@@ -10,7 +10,15 @@ for(i=0;i<5;i++)
 {
 for(j=0;j<5;j++)
 {scanf("%d,%d",&array[i][j]);}}
-}
+for(i=0;i<r;i++)
+    {
+        for(j=0;j<c;j++)
+        {printf("%d",array[i][j]);
+            
+        }}
+    }
+ 
+
 
 
 
