@@ -1,0 +1,11 @@
+int add(int*p1,int*p2)
+{
+    return(*p1+*p2);
+}
+#include<stdio.h>
+int main()
+{
+    int a=10,b=12,sum;
+    sum=add(&a,&b);
+    printf("Sum=%d",sum);
+}
