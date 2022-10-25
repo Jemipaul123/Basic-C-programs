@@ -1,4 +1,4 @@
-//basic program for arrays
+
 #include <stdio.h>
 
 int main() {
